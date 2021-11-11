@@ -1,0 +1,23 @@
+
+MULTIGON.PAS can be compiled by Turbo Pascal v5.0. The program is intended to be run in a DOS environment. Details and instructions are included as comments within the source code.
+
+The source code for MULTIGON.PAS describes how NFT's will be created using Ethereum block header hashes corresponding to 512 sequential Ethereum blocks: block numbers 13557400 through 13557911. 
+
+The file MULTIGON.PAS was SHA256 hashed: 4dd68c6ce0fbd456688da0b5f65fa3da7e8583c8a38cc0b7d6d5a45d18b8ff58
+
+This file hash was then included as data within an Ethereum transaction. This transaction was included in block 13557184 and a transaction hash of 
+0x17ecf6d3e08cbe57cc88514cd7a79548e5e70622c923090fba7629bf07e499a5. Note that the 0x is syntax for hexadecimal and can be ignored in the hash.
+
+The filehash can be seen as a transaction detail on a block explorer, such as etherscan: 
+https://etherscan.io/tx/0x17ecf6d3e08cbe57cc88514cd7a79548e5e70622c923090fba7629bf07e499a5
+
+The "proof of timestamp" corresponds to the timing of this block, which was 05 Nov 2021 14:41:28 UTC.
+
+The Ethereum network then mined the set of 512 blocks. The  start and end range of the set of 512 blocks had the following timestamps:
+Block 13557400: 05 Nov 2021 15:31:57 UTC
+Block 13557911: 05 Nov 2021 17:17:22 UTC
+
+The sequence of events can be verified by any interested party. This sequence demonstrates that the input hashes that generated the set of 512 NFT's existed outside the realm of possible human knowledge at the time the block numbers were locked into the source code as a comment. Given this is entirely provable, this can be considered a provably non-curated collection.
+
+
+
